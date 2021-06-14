@@ -3,6 +3,7 @@ childPipelines:
     - git@gitlab.com:tkyi/testing.git#test
     - git@gitlab.com:tkyi/testing.git#test:test
     - git@gitlab.com:tkyi/testing.git
+    - git@gitlab.com:tkyi/subscribe.git
 jobs:
   main:
     image: node:8
